@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
+import { ICarousel } from '../../constants/carousel.constants';
 
 @Component({
   selector: 'carousel',
@@ -9,6 +10,6 @@ import { NzCarouselModule } from 'ng-zorro-antd/carousel';
   styleUrl: 'carousel.component.scss',
 })
 export class CarouselComponent {
-  array = [1, 2, 3, 4];
+  @Input() dataCarousel: ICarousel[] = [];
   effect = 'scrollx';
 }

@@ -1,15 +1,20 @@
+nz-carousel {
+  height: 300px;
+}
+
 [nz-carousel-content] {
-    text-align: center;
-    height: 300px;
-    line-height: 160px;
-    background: #364d79;
-    color: #fff;
-    overflow: hidden;
-  
-    h1 {
-      color: #f7f7f7;
-      margin-bottom: 0;
-      user-select: none;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
+}
+
   
