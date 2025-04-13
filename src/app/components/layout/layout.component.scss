@@ -1,23 +1,17 @@
-.header{
-  width: 100%;
-  background: #fff;
-  &__menu {
-      height: 65px;
-      &__prinsipal {
-          color: #0e0b0b;
-          font-size: 25px;
-          font-family: monospace;
-      }
-  }
-}
+@import '../../../variables.scss';
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: $accent-color;
 
-
-.logo {
-  width: 55px;
-  float: left;
-
-  img {
+  &__logo {
+    width: 80px;
+    padding: 10px;
+    img {
       width: 100%;
+    }
   }
 }
 
@@ -30,7 +24,7 @@ nz-breadcrumb {
 }
 
 nz-content {
-  padding: 0 5px;
+  padding: 0;
 }
 
 nz-footer {
@@ -41,8 +35,6 @@ nz-header {
   padding: 0 5px;
 }
 
-.inner-content {
-  background: #fff;
-  padding: 24px;
-  min-height: 280px;
+nz-layout {
+  background-color: $background-color;
 }

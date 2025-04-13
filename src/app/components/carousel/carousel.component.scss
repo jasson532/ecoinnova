@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 nz-carousel {
   height: 300px;
 }
@@ -7,6 +9,7 @@ nz-carousel {
   justify-content: center;
   align-items: center;
   height: 100%;
+  position: relative;
 
   img {
     max-width: 100%;
@@ -14,6 +17,20 @@ nz-carousel {
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
+
+  label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background: $background-color;
+    color: $text-accent-color;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bold;
+    font-family: $font-heading;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
   }
 }
 

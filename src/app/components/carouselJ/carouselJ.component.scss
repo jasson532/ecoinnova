@@ -1,0 +1,39 @@
+.carousel-component {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  &__container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+
+    &__item {
+      flex: 0 0 25%;
+      text-align: center;
+
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      &__item {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  
+    @media (max-width: 480px) {
+      gap: 20px;
+      &__item {
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}

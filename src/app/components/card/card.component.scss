@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+
+.card-component {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+
+  label {
+    color: $text-accent-color;
+    background: $background-color;
+    border-radius: 30px;
+    font-family: $font-body;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

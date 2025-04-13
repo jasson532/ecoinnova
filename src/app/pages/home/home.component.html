@@ -1,3 +1,18 @@
 <layout>
-    <carousel [dataCarousel]="carouselData"></carousel>
+    <section class="home-header">
+        <p class="home-header__span">
+            Fabricamos empaques y Bolsas Ecológicas 100% Personalizadas
+        </p>
+        <p class="home-header__title">HAZ QUE TU MARCA BRILLE</p>
+        <p class="home-header__sub-title">
+            CON BOLSAS QUE HABLAN POR TI Y POR EL PLANETA
+        </p>
+        <button nz-button nzType="primary">Botón de Prueba</button>
+        <button nz-button nzType="primary">Primary Button</button>
+        <p class="home-header__description">
+            Somos el Aliado de tu Mercadeo para que puedas Inmortalizar tu Marca a través de packaging que cuenta una historia y aumenta la visibilidad de tu negocio con bolsas que llevan tu mensaje a cada rincón de Colombia.
+        </p>
+    </section>
+    <app-carousel [images]="carouselData"></app-carousel>
+    <app-products-list [products]="productsList"></app-products-list>
 </layout>

@@ -1,0 +1,9 @@
+<nz-modal
+  [(nzVisible)]="isVisible"
+  (nzOnCancel)="handleCancel()"
+  [nzFooter]="null"
+  >
+  <ng-container *nzModalContent>
+    <carousel ngIf="product" [dataCarousel]="product"></carousel>
+  </ng-container>
+</nz-modal>

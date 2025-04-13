@@ -2,6 +2,7 @@
     @for (data of dataCarousel; track data) {
       <div nz-carousel-content [id]="data.label">
         <img [src]="data.path" [alt]="data.label">
+        <label for="data.label">{{ data.label }}</label>
       </div>
     }
   </nz-carousel>

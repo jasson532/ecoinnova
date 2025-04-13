@@ -1,0 +1,80 @@
+@import '../../../variables.scss';
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 60px;
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    &__span {
+        font-family: $font-body;
+        font-size: 20px;
+        padding: 0 200px 0;
+        margin: 0;
+        color: $text-color;
+    }
+
+    &__title {
+        color: $text-accent-color;
+        font-family: $font-heading;
+        font-size: 65px;
+        font-weight: 600;
+        -webkit-text-stroke-width: 3px;
+        stroke-width: 3px;
+        -webkit-text-stroke-color: $text-accent-color;
+        stroke: $text-accent-color;
+        padding: 0 200px 0;
+        margin: 0;
+    }
+
+    &__sub-title {
+        color: $text-secondary-color;
+        font-family: $font-heading;
+        font-size: 40px;
+        font-weight: 700;
+        padding: 0 100px 0;
+        margin: 0 0 30px;
+    }
+
+    &__description {
+        font-family: $font-body;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        padding: 0 300px 0;
+        margin: 0;
+        color: $text-color;
+    }
+    
+      @media (max-width: 480px) {
+        &__span {
+          font-size: 12px;
+          padding: 0 80px 0;
+        }
+
+        &__title {
+            font-size: 20px;
+            padding: 0 50px 0;
+            stroke-width: 0px;
+            -webkit-text-stroke-width: 1px;
+        }
+
+        &__sub-title {
+            font-size: 16px;
+            padding: 0 80px 0;
+        }
+
+        &__description {
+            font-size: 12px;
+            padding: 0 80px 0;
+        }
+      }
+
+}
