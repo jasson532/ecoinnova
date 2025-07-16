@@ -9,14 +9,14 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+  cursor: pointer;
 
   label {
     color: $text-accent-color;
     background: $background-color;
-    border-radius: 30px;
+    border-radius: 10px;
     font-family: $font-body;
     padding: 10px;
     font-weight: bold;
-    cursor: pointer;
   }
 }

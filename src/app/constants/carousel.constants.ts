@@ -1,43 +1,43 @@
 export const dataCarousel: ICarousel[] = [
     {
-        label: 'Imagen 1',
-        path: 'assets/images/carousel/1.jpeg'
+        label: '',
+        path: 'assets/images/carousel/1.png'
     },
     {
-        label: 'Imagen 2',
-        path: 'assets/images/carousel/2.jpeg'
+        label: '',
+        path: 'assets/images/carousel/2.png'
     },
     {
-        label: 'Imagen 3',
-        path: 'assets/images/carousel/3.jpeg'
+        label: '',
+        path: 'assets/images/carousel/3.png'
     },
     {
-        label: 'Imagen 4',
-        path: 'assets/images/carousel/4.jpeg'
+        label: '',
+        path: 'assets/images/carousel/9.png'
     },
     {
-        label: 'Imagen 5',
+        label: '',
         path: 'assets/images/carousel/5.png'
     },
     {
-        label: 'Imagen 6',
-        path: 'assets/images/carousel/1.jpeg'
+        label: '',
+        path: 'assets/images/carousel/1.png'
     },
     {
-        label: 'Imagen 7',
-        path: 'assets/images/carousel/3.jpeg'
+        label: '',
+        path: 'assets/images/carousel/2.png'
     },
     {
-        label: 'Imagen 8',
-        path: 'assets/images/carousel/3.jpeg'
+        label: '',
+        path: 'assets/images/carousel/3.png'
     },
     {
-        label: 'Imagen 9',
-        path: 'assets/images/carousel/3.jpeg'
+        label: '',
+        path: 'assets/images/carousel/1.png'
     },
     {
-        label: 'Imagen 10',
-        path: 'assets/images/carousel/3.jpeg'
+        label: '',
+        path: 'assets/images/carousel/2.png'
     },
 ];
 

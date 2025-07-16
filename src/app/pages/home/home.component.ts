@@ -9,8 +9,6 @@ import { dataCarousel, ICarousel } from '../../constants/carousel.constants';
 import { CarouselComponentJ } from '../../components/carouselJ/carouselJ.component';
 import { ProductsListComponent } from '../../components/products-list/products-list.component';
 import { ICard, listProducts1 } from '../../constants/products.constants';
-import { ProductModalComponent } from '../../components/product-modal/product-modal.component';
-import { NzButtonModule } from 'ng-zorro-antd/button';
 
 @Component({
   selector: 'home',
@@ -25,8 +23,7 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     LayoutComponent,
     NzTypographyModule,
     CarouselComponentJ,
-    ProductsListComponent,
-    NzButtonModule
+    ProductsListComponent
   ],
 })
 export class HomeComponent {

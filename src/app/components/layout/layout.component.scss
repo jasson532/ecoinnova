@@ -1,10 +1,10 @@
 @import '../../../variables.scss';
 .header {
   display: flex;
-  height: 80px;
+  height: 100px;
   align-items: center;
   justify-content: center;
-  background-color: $accent-color;
+  background-color: $primary-color;
 
   &__logo {
     width: 80px;
@@ -15,20 +15,64 @@
   }
 }
 
-[nz-menu] {
-  line-height: 64px;
+.footer {
+  background: $primary-color;
+  padding: 40px 20px;
+  color: $background-color;
+  border-top: 3px solid $background-color;
+  text-align: center;
+  margin-top: 20px;
+
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: $font-body;
+    font-size: 14px;
+
+    &__social-icons {
+      a {
+        margin-right: 15px;
+        font-size: 28px;
+        color: $background-color;
+  
+        &:hover {
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  h3 {
+    color: $background-color;
+    margin-bottom: 10px;
+  }
 }
 
-nz-breadcrumb {
-  margin: 16px 0;
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: $primary-color;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px $text-accent-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.whatsapp-float img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+
 
 nz-content {
   padding: 0;
-}
-
-nz-footer {
-  text-align: center;
 }
 
 nz-header {

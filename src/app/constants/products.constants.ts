@@ -2,60 +2,50 @@ import { ICarousel } from "./carousel.constants";
 
 export const listProducts1: ICard[] = [
     {
-        label: 'Bolsa de fuelle bajo',
-        path: 'assets/images/carousel/1.jpeg',
+        label: 'Tres fuelles cuadrada',
+        path: 'assets/images/products/tres-fuelles-cuadrada/tres-fuelles-cuadrada-3.png',
         info: [
             {
-                label: '20 ANCHO X 30 ALTO X 6 FUELLE',
-                path: 'assets/images/carousel/1.jpeg'
+                label: 'Tres fuelles cuadrada',
+                path: 'assets/images/products/tres-fuelles-cuadrada/tres-fuelles-cuadrada-1.png'
             },
             {
-                label: '30 ANCHO X 30 ALTO X 8 FUELLE',
-                path: 'assets/images/carousel/2.jpeg'
+                label: 'Tres fuelles cuadrada',
+                path: 'assets/images/products/tres-fuelles-cuadrada/tres-fuelles-cuadrada-2.png'
+            },
+            {
+                label: 'Tres fuelles cuadrada',
+                path: 'assets/images/products/tres-fuelles-cuadrada/tres-fuelles-cuadrada-3.png'
             },
         ]
     },
     {
-        label: 'Imagen 2',
-        path: 'assets/images/carousel/2.jpeg'
-    },
-    {
-        label: 'Imagen 3',
-        path: 'assets/images/carousel/3.jpeg',
+        label: 'Plana base fuelle',
+        path: 'assets/images/products/plana-base-fuelle/plana-base-fuelle-2.png',
         info: [
             {
-                label: '20 ANCHO X 30 ALTO X 6 FUELLE',
-                path: 'assets/images/carousel/1.jpeg'
+                label: 'Plana base fuelle',
+                path: 'assets/images/products/plana-base-fuelle/plana-base-fuelle-1.png'
+            },
+            {
+                label: 'Plana base fuelle',
+                path: 'assets/images/products/plana-base-fuelle/plana-base-fuelle-2.png'
             },
         ]
     },
-    {
-        label: 'Imagen 4',
-        path: 'assets/images/carousel/4.jpeg'
-    },
-    {
-        label: 'Imagen 5',
-        path: 'assets/images/carousel/5.png'
-    },
-    {
-        label: 'Imagen 6',
-        path: 'assets/images/carousel/1.jpeg'
-    },
-    {
-        label: 'Imagen 7',
-        path: 'assets/images/carousel/3.jpeg'
-    },
-    {
-        label: 'Imagen 8',
-        path: 'assets/images/carousel/3.jpeg'
-    },
-    {
-        label: 'Imagen 9',
-        path: 'assets/images/carousel/3.jpeg'
-    },
-    {
-        label: 'Imagen 10',
-        path: 'assets/images/carousel/3.jpeg'
+	{
+        label: 'Troquelada',
+        path: 'assets/images/products/troquelada/troquelada-1.png',
+        info: [
+            {
+                label: 'Troquelada',
+                path: 'assets/images/products/troquelada/troquelada-2.png'
+            },
+            {
+                label: 'Troquelada',
+                path: 'assets/images/products/troquelada/troquelada-3.png'
+            },
+        ]
     },
 ];
 

@@ -21,14 +21,14 @@
     }
 
     &__title {
-        color: $text-accent-color;
+        color: $primary-color;
         font-family: $font-heading;
-        font-size: 65px;
+        font-size: 60px;
         font-weight: 600;
         -webkit-text-stroke-width: 3px;
         stroke-width: 3px;
-        -webkit-text-stroke-color: $text-accent-color;
-        stroke: $text-accent-color;
+        -webkit-text-stroke-color: $primary-color;
+        stroke: $primary-color;
         padding: 0 200px 0;
         margin: 0;
     }
@@ -36,7 +36,7 @@
     &__sub-title {
         color: $text-secondary-color;
         font-family: $font-heading;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
         padding: 0 100px 0;
         margin: 0 0 30px;
@@ -55,25 +55,25 @@
     
       @media (max-width: 480px) {
         &__span {
-          font-size: 12px;
-          padding: 0 80px 0;
+          font-size: 18px;
+          padding: 0 40px 0;
         }
 
         &__title {
-            font-size: 20px;
-            padding: 0 50px 0;
+            font-size: 26px;
+            padding: 0 30px 0;
             stroke-width: 0px;
             -webkit-text-stroke-width: 1px;
         }
 
         &__sub-title {
-            font-size: 16px;
-            padding: 0 80px 0;
+            font-size: 18px;
+            padding: 0 60px 0;
         }
 
         &__description {
-            font-size: 12px;
-            padding: 0 80px 0;
+            font-size: 14px;
+            padding: 0 40px 0;
         }
       }
 

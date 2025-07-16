@@ -1,7 +1,8 @@
 <div
   class="card-component"
+  (click)="clickCard(card)"
   [ngStyle]="{'background-image': card && 'url(' + card.path + ')'}">
-  <div (click)="clickCard(card)">
+  <div>
     <label for="card-component">{{ card?.label }}</label>
   </div>
 </div>

@@ -1,3 +1,16 @@
+@import '../../../variables.scss';
 .products-list {
   width: 100%;
+  margin-top: 100px;
+
+  &__title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: $text-accent-color;
+    font-family: $font-heading;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
 }

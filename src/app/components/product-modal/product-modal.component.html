@@ -2,6 +2,9 @@
   [(nzVisible)]="isVisible"
   (nzOnCancel)="handleCancel()"
   [nzFooter]="null"
+  nzClassName="product-modal"
+  [nzMaskStyle]="{background: '#FAFAF0'}"
+  [nzWidth]="'100%'"
   >
   <ng-container *nzModalContent>
     <carousel ngIf="product" [dataCarousel]="product"></carousel>

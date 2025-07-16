@@ -7,5 +7,54 @@
   <nz-content>
     <ng-content></ng-content>
   </nz-content>
-  <nz-footer>eco innova ©2025</nz-footer>
+  <nz-footer class="footer">
+    <div class="footer__content">
+      <nz-row [nzGutter]="[16, 16]">
+        
+        <!-- Información de contacto -->
+        <nz-col [nzXs]="24" [nzSm]="12" [nzMd]="8">
+          <h3>Contáctanos</h3>
+          <p><nz-icon nzType="pushpin" nzTheme="fill" /> Calle 14 a sur # 18 - 32, bogotá - Restrepo</p>
+          <p><nz-icon nzType="phone" nzTheme="fill" /> +57 350 2678 771</p>
+          <p><nz-icon nzType="phone" nzTheme="fill" /> +57 302 3420 971</p>
+        </nz-col>
+  
+        <!-- Redes sociales -->
+        <nz-col [nzXs]="24" [nzSm]="12" [nzMd]="8">
+          <h3>Síguenos</h3>
+          <div class="footer__content__social-icons">
+            <a href="https://www.facebook.com/share/15Lic5ePnW/?mibextid=wwXIfr" target="_blank">
+              <nz-icon nzType="facebook" nzTheme="fill" />
+            </a>
+            <a href="https://www.instagram.com/bolsas_ecoinnova?igsh=dHc4YWxhNW9heWRl" target="_blank">
+              <nz-icon nzType="instagram" nzTheme="fill" />
+            </a>
+            <a href="https://www.tiktok.com/@eco_innova?_t=ZS-8y5KCWQaCtG&_r=1" target="_blank">
+              <nz-icon nzType="tik-tok" nzTheme="fill" />
+            </a>
+          </div>
+        </nz-col>
+  
+        <!-- Google Maps -->
+        <nz-col [nzXs]="24" [nzSm]="24" [nzMd]="8">
+          <h3>Ubicación</h3>
+          <iframe
+            width="100%"
+            height="200"
+            frameborder="0"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.2138267008086!2d-74.10113520416748!3d4.5871248310662125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98e01905f0a9%3A0xb282fdc6661d2d73!2sCl.%2014a%20Sur%20%2318-32%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1ses-419!2sus!4v1752698140008!5m2!1ses-419!2sus">
+          </iframe>
+        </nz-col>
+  
+      </nz-row>
+    </div>
+    
+  </nz-footer>
+  <a href="https://wa.me/573502678771?text=Hola%20quiero%20más%20información%20sobre%20las%20bolsas%20ecológicas" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/whatsapp.svg" alt="WhatsApp" />
+  </a>
 </nz-layout>
