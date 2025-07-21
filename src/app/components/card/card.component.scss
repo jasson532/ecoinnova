@@ -19,4 +19,11 @@
     padding: 10px;
     font-weight: bold;
   }
+
+  @media (max-width: 480px) {
+    height: 150px;
+    label {
+      font-size: 10px;
+    }
+  }
 }

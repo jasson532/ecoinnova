@@ -1,8 +1,10 @@
-<nz-carousel nzAutoPlay>
+<nz-carousel  nzAutoPlay class="carousel">
     @for (data of dataCarousel; track data) {
       <div nz-carousel-content [id]="data.label">
-        <img [src]="data.path" [alt]="data.label">
-        <label for="data.label">{{ data.label }}</label>
+        <article class="carousel__container">
+          <img class="carousel__container__image" [src]="data.path" [alt]="data.label">
+          <label for="data.label">{{ data.label }}</label>
+        </article>
       </div>
     }
   </nz-carousel>
