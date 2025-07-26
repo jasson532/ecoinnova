@@ -27,4 +27,10 @@ export class ProductModalComponent {
     this.isVisible = false;
     this.cancelEvent.emit(false)
   }
+
+  onModalOpened() {
+  setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 500);
+}
 }

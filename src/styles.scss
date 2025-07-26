@@ -1,2 +1,16 @@
 @import "./variables.scss";  // Importa las variables personalizadas
-@import "~ng-zorro-antd/ng-zorro-antd.min.css"; 
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+
+.ant-modal-body {
+    min-height: 500px !important;
+}
+
+.slick-list {
+    min-height: 800px !important;
+}
+
+@media (max-width: 480px) {
+    .slick-list {
+        min-height: 400px !important;
+    }
+}
