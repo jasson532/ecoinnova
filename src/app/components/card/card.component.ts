@@ -1,13 +1,13 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ICard } from '../../constants/products.constants';
-import { emit } from 'node:process';
+import { NzCardModule } from 'ng-zorro-antd/card';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
-  imports: [CommonModule]
+  imports: [CommonModule, NzCardModule]
 })
 export class CardComponent implements OnInit {
   @Input() card: ICard | null = null;
@@ -17,8 +17,6 @@ export class CardComponent implements OnInit {
   }
 
   clickCard(card: ICard | null): void {
-    console.log('esta es la card expuesta ', card);
-    
     this.eventCard.emit(card);
   }
 }

@@ -1,8 +1,8 @@
 <div class="products-list">
   <p class="products-list__title" for="roducts-list">Te ofrecemos una alta variedad de opciones</p>
-  <nz-row [nzGutter]="1">
+  <nz-row [nzGutter]="[16, 25]">
     @for (product of products; track product.label) {
-      <nz-col [nzXs]="8" [nzSm]="6" [nzMd]="6">
+      <nz-col [nzXs]="12" [nzSm]="6" [nzMd]="6" >
         <app-card [card]="product" (eventCard)="showProduct($event)"></app-card>
       </nz-col>
     }

@@ -1,8 +1,9 @@
-<div
-  class="card-component"
-  (click)="clickCard(card)"
-  [ngStyle]="{'background-image': card && 'url(' + card.path + ')'}">
-  <div>
-    <label for="card-component">{{ card?.label }}</label>
-  </div>
-</div>
+<nz-card
+  nzHoverable
+  [nzCover]="coverTemplate"
+  (click)="clickCard(card)">
+  <nz-card-meta [nzTitle]="card?.label || ''"></nz-card-meta>
+</nz-card>
+<ng-template #coverTemplate>
+  <img class="card-component-image" alt="example" [src]="card?.path || ''" />
+</ng-template>

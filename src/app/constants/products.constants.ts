@@ -73,7 +73,7 @@ export const listProducts1: ICard[] = [
     },
     {
         label: 'Fuelle bajo',
-        path: 'assets/images/products/bolsa-fuelle-bajo/1.webp',
+        path: 'assets/images/products/bolsa-fuelle-bajo/3.webp',
         info: [
             {
                 label: '-',
@@ -81,7 +81,7 @@ export const listProducts1: ICard[] = [
             },
             {
                 label: '-',
-                path: 'assets/images/products/bolsa-fuelle-bajo/3.webp'
+                path: 'assets/images/products/bolsa-fuelle-bajo/1.webp'
             },
         ]
     },
@@ -101,7 +101,7 @@ export const listProducts1: ICard[] = [
     },
     {
         label: 'Plana manija',
-        path: 'assets/images/products/plana-manija/1.webp',
+        path: 'assets/images/products/plana-manija/3.webp',
         info: [
             {
                 label: '-',
@@ -109,7 +109,7 @@ export const listProducts1: ICard[] = [
             },
             {
                 label: '-',
-                path: 'assets/images/products/plana-manija/3.webp'
+                path: 'assets/images/products/plana-manija/1.webp'
             },
         ]
     },
